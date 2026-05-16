@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-  padding: 2px;
-  margin: 3;
+  padding:4px;
+  margin: 4px;
   list-style: none;
   box-sizing: border-box;
   font-size: 1rem;
-  color: #463939;
+  color: #2b2929;
   text-decoration: none;
   font-weight: normal;
   font-family: Roboto;
@@ -13,11 +13,12 @@
 
 /* Main Header */
 .main-header {
-  background-color: #66666670;
+  background-color: #5f5d5d70;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 10px 10px;
+  margin: 14px;
   border-bottom: 5px solid #56555570;
 }
 
@@ -115,8 +116,8 @@
   margin: 30px;
 }
 .m- {
-  margin: 40px;
+  margin: 20px;
 }
 .m- {
-  margin: 50px;
+  margin: 20px;
 }
