@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <img src="https://cdn.sonicadigital.com.br/entra21/storage/settings/1/original-691cbe5cd50d1.png"
+            height=60 "Entra21">
+    </h1>
+    <ul>
+        <li>
+            <a href="html.html">HTML</a>
+        </li>
+        <li>
+            <a href="css.html">CSS</a>
+        </li>
+        <li>
+            <a href="js.html">JS</a>
+        </li>
+        <li>
+            <a href="contato.html">contato</a>
+        </li>
+    </ul>
+    <h2>Contato</h2>
+    <p>
+        Entre em contato com nosso time:
+    </p>
+    <form action="foram.html" method="post">
+         <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" maxlength="60">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="telefone">Telefone</label>
+             <input type="number" name="telefone" id="telefone" main="1" max="200"> 
+        </div>
+        <div>
+            <label for="cidade">Cidade</label>
+            <select name="cidade" id="cidade">
+            <option value="1">Navegantes</option>
+            <option value="2">Itajaí</option>
+            <option value="3">Balneário Camburiú</option>
+            <option value="4">Barra Velha</option>
+            <option value="5" selected>Outros</option>
+           </select>
+        </div>
+        <div>
+            <label>Aluno</label>
+            <input type="checkbox" name="aluno" id="aluno" value="aluno">
+            <label for="parceiro">Parceiro</label>
+            <input type="checkbox" name="parceiro" id=" parceiro" value="parceiro">
+        </div>
+        <div>
+            <input type="checkbox" name="mensagem" id="mensagem">
+            <label for="mensagem">Mensagem</label>
+        </div>
+        <div>
+            <label for="perfil">Perfil</label>
+            <textarea name="perfil" id="perfil" rows="5" maxlength="5000"></textarea>
+        </div>
+        <div>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <div>
+              <button type="submit">Salvar dados</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

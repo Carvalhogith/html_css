@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 2px;
+  margin: 3;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: #463939;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: Roboto;
+}
+
+/* Main Header */
+.main-header {
+  background-color: #66666670;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 5px solid #56555570;
+}
+
+.main-header ul {
+  display: flex;
+  gap: 20px;
+}
+
+.main-header a {
+  font-weight: bold;
+  transition: color 0.5s;
+}
+.main-header a:hover {
+  color: rgb(43, 6, 255);
+  font-size: 1.2rem;
+}
+/* Main Content */
+.main-content {
+  /* background-color: blueviolet;*/
+}
+.main-content-title {
+  font-weight: bold;
+  font-size: 1rem;
+  border-bottom: 1px solid rgb(39, 39, 39);
+  padding-bottom: blue;
+}
+/*GRID*/
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ESPAÇAMENTO */
+
+.P- {
+  padding: 10px;
+}
+.P- {
+  padding: 20px;
+}
+.P- {
+  padding: 30px;
+}
+.P- {
+  padding: 40px;
+}
+.P- {
+  padding: 50px;
+}
+
+.m- {
+  margin: 10px;
+}
+.m- {
+  margin: 20px;
+}
+.m- {
+  margin: 30px;
+}
+.m- {
+  margin: 40px;
+}
+.m- {
+  margin: 50px;
+}
