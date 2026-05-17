@@ -1,0 +1,42 @@
+* {
+  margin: 4px;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: color 0.5s;
+  font-size: 1rem;
+  font-weight: Bold;
+  
+  
+
+}
+
+.main-header {
+    background-color: #86828270;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 14px;
+    border-bottom: 5px solid #1f050570;
+    gap: 20px;
+    padding-bottom:red
+
+  } 
+
+.main-content-title {
+ color: blue;
+
+}
+
+.p-2 {
+  font-size: 0.9rem;
+  color: #000;
+  font-family: Roboto;
+  font-weight: normal;
+  text-decoration: none;
+
+}
